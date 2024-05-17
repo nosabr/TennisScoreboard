@@ -3,16 +3,17 @@
 <html>
     <head>
         <title>Tennis Scoreboard</title>
+        <style>
+            <%@include file="/views/style/style.css"%>>
+        </style>
     </head>
     <body>
-        <div class="buttons">
-            <button onclick="redirectToNewGame()" type="button">New game</button>
-            <button type="button">All games</button>
-        </div>
+        <header class="header">
+            <div class="nav-links">
+                <a href="${pageContext.request.contextPath}/">Main Menu</a>
+                <a href="${pageContext.request.contextPath}/new-match">New Game</a>
+            </div>
+            <div class="project-name">Project Name</div>
+        </header>
     </body>
-    <script>
-        function redirectToNewGame(){
-            window.location.href ='${pageContext.request.contextPath}/new-match';
-        }
-    </script>
 </html>
