@@ -1,15 +1,14 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
         <title>Create new game</title>
-        <style><%@include file="style/style.css"%>></style>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/views/style/style.css">
     </head>
     <body>
         <header class="header">
             <div class="nav-links">
                 <a href="${pageContext.request.contextPath}/">Main Menu</a>
-                <a href="${pageContext.request.contextPath}/new-match">New Game</a>
+                <a href="${pageContext.request.contextPath}/new-match">New Match</a>
             </div>
             <div class="project-name">Project Name</div>
         </header>   
