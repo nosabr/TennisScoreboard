@@ -3,6 +3,7 @@
     <head>
         <title>Create new game</title>
         <link rel="stylesheet" href="${pageContext.request.contextPath}/views/style/style.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/views/style/new_match_style.css">
     </head>
     <body>
         <header class="header">

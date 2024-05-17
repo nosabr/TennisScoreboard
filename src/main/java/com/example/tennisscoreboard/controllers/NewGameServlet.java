@@ -12,7 +12,7 @@ import java.io.IOException;
 public class NewGameServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String path = "views/new_game.jsp";
+        String path = "views/new_match.jsp";
         req.getRequestDispatcher(path).forward(req,resp);
     }
 }
