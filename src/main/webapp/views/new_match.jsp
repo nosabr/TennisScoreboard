@@ -28,7 +28,11 @@
                 document.querySelector('.form-container').addEventListener('submit', function(event) {
                     var player1 = document.getElementById('player1').value.trim();
                     var player2 = document.getElementById('player2').value.trim();
-                    if (player1 === '' || player2 === '') {
+                    if (player1 === player2){
+                        alert('Player names cannot be same');
+                        event.preventDefault();
+                    }
+                    else if (player1 === '' || player2 === '') {
                         alert('Player names cannot be empty.');
                         event.preventDefault();
                     }
