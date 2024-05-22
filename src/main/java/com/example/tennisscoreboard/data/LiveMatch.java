@@ -6,12 +6,13 @@ import lombok.Data;
 import java.util.UUID;
 
 @Data
-public class CurrentMatch {
+public class LiveMatch {
     private UUID uuid;
     private Player firstPlayer;
     private Player secondPlayer;
     private Player winner;
     private MatchScore matchScore;
     private boolean serving;
+
 
 }
