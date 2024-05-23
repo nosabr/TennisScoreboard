@@ -26,7 +26,6 @@ public class LiveMathcesService {
 
     public UUID createMatch(Player firstPlayer, Player secondPlayer){
        UUID id = UUID.randomUUID();
-
         return id;
     }
 }
